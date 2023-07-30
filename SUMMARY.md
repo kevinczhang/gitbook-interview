@@ -4,10 +4,6 @@
 
 ## Algorithm <a href="#a-group" id="a-group"></a>
 
-* [Code templates](a-group/code-templates/README.md)
-  * [Quick select](a-group/code-templates/quick-select.md)
-  * [Union Find](a-group/code-templates/union-find.md)
-  * [Topological Sorting](a-group/code-templates/topological-sorting.md)
 * [Classic problems](a-group/commonalgorithms/README.md)
   * [Array and matrix](a-group/commonalgorithms/array/README.md)
     * [Difference Array](a-group/commonalgorithms/array/difference-array/README.md)
