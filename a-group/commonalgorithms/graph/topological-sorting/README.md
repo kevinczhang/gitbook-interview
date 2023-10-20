@@ -107,3 +107,19 @@ public class Solution {
 }
 
 ```
+
+## Topological Sort Template -- General Approach!!
+
+`Topological Sort is Easy` -- The General Template\
+\*\
+**What we need ?**\
+`1. HashMap<Node, Indegree> inDegree`: A in-degree map, which record each nodes in-degree.\
+`2. HashMap<Node, List<Node>children> topoMap`: A topo-map which record the Node's children
+
+**What we do ?**\
+`1. Init`: Init the two HashMaps.\
+`2. Build Map`: Put the child into parent's list ; Increase child's in-degree by 1.\
+`3. Find Node with 0 in-degree`: Iterate the inDegree map, find the Node has 0 inDegree. (If none, there must be a circle)\
+`4. Decrease the children's inDegree by 1`: Decrease step3's children's inDegree by 1.\
+`5. Remove this Node`: Remove step3's Node from inDegree. Break current iteration.\
+`6. Do 3-5 until inDegree is Empty`: Use a while loop
