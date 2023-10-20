@@ -196,10 +196,13 @@ class Solution {
         //2. Build Map
         for(int[] pair : prerequisites) {
             int curCourse = pair[0], preCourse = pair[1];
-            topoMap.get(preCourse).add(curCourse);  // put the child into it's parent's list
-            inDegree.put(curCourse, inDegree.get(curCourse) + 1); // increase child inDegree by 1
+            // put the child into it's parent's list
+            topoMap.get(preCourse).add(curCourse);
+            // increase child inDegree by 1
+            inDegree.put(curCourse, inDegree.get(curCourse) + 1); 
         }
-        //3. find course with 0 indegree, minus one to its children's indegree, until all indegree is 0
+        //3. find course with 0 indegree, minus one to its children's indegree, 
+        //until all indegree is 0
         int[] res = new int[numCourses];
         int base = 0;
         while(!inDegree.isEmpty()) {
@@ -207,10 +210,12 @@ class Solution {
             for(int key : inDegree.keySet()) {  // find nodes with 0 indegree
                 if(inDegree.get(key) == 0) {
                     res[base ++] = key;
-                    List<Integer> children = topoMap.get(key);  // get the node's children, and minus their inDegree
+                    // get the node's children, and minus their inDegree
+                    List<Integer> children = topoMap.get(key);  
                     for(int child : children) 
                         inDegree.put(child, inDegree.get(child) - 1);
-                    inDegree.remove(key);      // remove the current node with 0 degree and start over
+                    // remove the current node with 0 degree and start over
+                    inDegree.remove(key);      
                     flag = true;
                     break;
                 }
