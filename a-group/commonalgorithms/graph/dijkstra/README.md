@@ -1,3 +1,7 @@
+---
+description: find Shortest Paths from Source to all Vertices
+---
+
 # Dijkstra
 
 Template
