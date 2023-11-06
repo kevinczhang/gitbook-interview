@@ -158,3 +158,51 @@ class Solution {
 }
 ```
 {% endcode %}
+
+Code from template
+
+```java
+
+class Solution {
+    public boolean canFinish(int numCourses, int[][] prerequisites) {
+        if (numCourses <= 1)
+            return true;
+        // Initial graph and indegrees
+        Map<Integer, Integer> inDegrees = new HashMap<>();
+        Map<Integer, List<Integer>> topoGraph = new HashMap<>();
+        for (int i = 0; i < numCourses; i++){
+            inDegrees.put(i, 0);
+            topoGraph.put(i, new ArrayList<>());
+        }
+
+        // Build dependency graph
+        for (int[] prereq : prerequisites) {
+            int courseTo = prereq[0];
+            int courseReq = prereq[1];
+
+            inDegrees.put(courseTo, inDegrees.getOrDefault(courseTo, 0) + 1);
+            topoGraph.get(courseReq).add(courseTo);
+        }
+
+        // Topological sort
+        while (!inDegrees.isEmpty()){
+            boolean foundNodeWithZeroInDegree = false;
+            for (Integer c : inDegrees.keySet()) {
+                if (inDegrees.get(c) != 0) {
+                    continue;
+                }
+                foundNodeWithZeroInDegree = true; 
+                for (Integer p : topoGraph.get(c)) {
+                    inDegrees.put(p, inDegrees.get(p) - 1);
+                }
+                inDegrees.remove(c);
+                break;
+            }
+            if (!foundNodeWithZeroInDegree)
+                return false;
+        }
+        return true;
+    }
+}
+
+```
