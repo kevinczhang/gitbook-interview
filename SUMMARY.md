@@ -248,6 +248,7 @@
   * [Advanced Algorithm](a-group/clrs/advanced-algorithm/README.md)
     * [Greedy Algorithm](a-group/clrs/advanced-algorithm/greedy-algorithm.md)
 * [Unit testing](a-group/unit-testing.md)
+* [Preparation summary](a-group/preparation-summary.md)
 
 ## Database
 
