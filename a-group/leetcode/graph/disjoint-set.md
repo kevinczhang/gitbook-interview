@@ -33,7 +33,7 @@ The primary use of disjoint sets is to address the connectivity between the comp
 
 ### The two important functions of a “disjoint set.” <a href="#the-two-important-functions-of-a-disjoint-set" id="the-two-important-functions-of-a-disjoint-set"></a>
 
-
+***
 
 In the introduction videos above, we discussed the two important functions in a “disjoint set”.
 

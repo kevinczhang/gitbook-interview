@@ -30,11 +30,11 @@ Space complexity: O(N)O(N)
 
 * After step 2, the heap will store all NN elements.
 
-
+***
 
 &#x20;
 
-
+***
 
 #### The Top K Problem - Approach 2 <a href="#the-top-k-problem-approach-2" id="the-top-k-problem-approach-2"></a>
 

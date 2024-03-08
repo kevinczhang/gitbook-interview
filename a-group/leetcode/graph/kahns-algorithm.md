@@ -15,7 +15,7 @@ Figure 12. Prerequisite relationships between courses
 
 #### Video Explanation <a href="#video-explanation" id="video-explanation"></a>
 
-
+***
 
 In this video, we'll cover how the Kahn's Algorithm can be used for topological sorting.
 
@@ -31,7 +31,7 @@ However, this step can be performed more efficiently by creating an adjacency li
 
 #### Limitation of the Algorithm <a href="#limitation-of-the-algorithm" id="limitation-of-the-algorithm"></a>
 
-
+***
 
 * “Topological sorting” only works with graphs that are directed and acyclic.
 * There must be at least one vertex in the “graph” with an “in-degree” of 0. If all vertices in the “graph” have a non-zero “in-degree”, then all vertices need at least one vertex as a predecessor. In this case, no vertex can serve as the starting vertex.
@@ -41,7 +41,7 @@ However, this step can be performed more efficiently by creating an adjacency li
 
 #### Complexity Analysis <a href="#complexity-analysis" id="complexity-analysis"></a>
 
-
+***
 
 VV represents the number of vertices, and EE represents the number of edges.
 

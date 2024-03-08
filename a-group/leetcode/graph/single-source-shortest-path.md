@@ -11,7 +11,7 @@ The main focus of this chapter is to solve such “single source shortest path�
 
 #### Edge Relaxation <a href="#edge-relaxation" id="edge-relaxation"></a>
 
-
+***
 
 In the following video, we'll talk about an Edge Relaxation operation that is a key element in solving the “single-source shortest path” problem.
 

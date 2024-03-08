@@ -11,7 +11,7 @@ As we've said in the previous chapter, **usually** a top-down algorithm is easie
 5. Now, each iteration of the inner-most loop represents a given state, and is equivalent to a function call to the same state in top-down. Copy the logic from your function into the for-loop and change the function calls to accessing your array. All \text{dp(...)}dp(...) changes into \text{dp\[...]}dp\[...].
 6. We're done! \text{dp}dp is now an array populated with the answer to the original problem for all possible states. Return the answer to the original problem, by changing \text{return dp(...)}return dp(...) to \text{return dp\[...]}return dp\[...].
 
-
+***
 
 Let's try a quick example using the House Robber code from before. Here's a completed top-down solution:
 

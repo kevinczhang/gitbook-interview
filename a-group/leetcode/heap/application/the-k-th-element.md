@@ -32,11 +32,11 @@ Space complexity: O(N)O(N)
 
 * After step 2, the heap will store all NN elements.
 
-
+***
 
 &#x20;
 
-
+***
 
 #### The K-th Element - Approach 2 <a href="#the-k-th-element-approach-2" id="the-k-th-element-approach-2"></a>
 

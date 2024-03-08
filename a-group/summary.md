@@ -1,4 +1,4 @@
-# Preparation summary
+# Summary
 
 1. APIs
    1. Set
@@ -26,7 +26,9 @@
    3. Topological sort
    4. Union Find
    5. Dijkstra
-6. Trie
-7. Monotonic Stack
-8. Backtrack
-9. Sliding window
+6. Special Data structures
+   1. Trie
+   2. Monotonic Stack
+7. Special Algorithms
+   1. Backtrack
+   2. Sliding window
