@@ -32,3 +32,4 @@
 7. Special Algorithms
    1. Backtrack
    2. Sliding window
+   3. Greedy
