@@ -26,10 +26,14 @@
    3. Topological sort
    4. Union Find
    5. Dijkstra
-6. Special Data structures
+6. Bit Manipulation
+   1. Set bit
+   2. Clear bit
+   3. Right most 1 bit
+7. Special Data structures
    1. Trie
    2. Monotonic Stack
-7. Special Algorithms
+8. Special Algorithms
    1. Backtrack
    2. Sliding window
    3. Greedy
