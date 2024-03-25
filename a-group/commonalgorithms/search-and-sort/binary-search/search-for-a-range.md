@@ -56,7 +56,7 @@ public class Solution {
                 start = mid + 1;
             }
         }
-        return (target == nums[end]) ? end : -1;
+        return (end >= 0 && target == nums[end]) ? end : -1;
     }
 }
 ```
