@@ -1,3 +1,8 @@
+---
+description: >-
+  https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/description/
+---
+
 # Search for a Range
 
 Given an array of integers `nums` sorted in ascending order, find the starting and ending position of a given `target` value.
