@@ -8,8 +8,6 @@ description: Common algorithms for array
 
 #### From `Array` to `ArrayList`
 
-[https://dzone.com/articles/how-convert-array-arraylist](https://dzone.com/articles/how-convert-array-arraylist)
-
 ```java
 // java.util.ArrayList
 
@@ -117,4 +115,4 @@ public class Solution {
 
 \***Subarray Sum 系列问题参考：**
 
-Source: [https://mnmunknown.gitbooks.io/algorithm-notes/626,\_dong\_tai\_gui\_hua\_ff0c\_subarray\_lei.html](https://mnmunknown.gitbooks.io/algorithm-notes/626,\_dong\_tai\_gui\_hua\_ff0c\_subarray\_lei.html)
+Source: [https://mnmunknown.gitbooks.io/algorithm-notes/626,\_dong\_tai\_gui\_hua\_ff0c\_subarray\_lei.html](https://mnmunknown.gitbooks.io/algorithm-notes/626,_dong_tai_gui_hua_ff0c_subarray_lei.html)
