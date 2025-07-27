@@ -9,22 +9,9 @@ description: >-
 
 ## Common Sequence Operations for all
 
-&#x20;The operations in the following table are supported by most sequence types, both mutable and immutable. The [`collections.abc.Sequence`](https://docs.python.org/3/library/collections.abc.html#collections.abc.Sequence) ABC is provided to make it easier to correctly implement these operations on custom sequence types.
+&#x20;The operations in the following table are supported by most sequence types, both mutable and immutable.&#x20;
 
-| Operation              | Result                                                                                   |
-| ---------------------- | ---------------------------------------------------------------------------------------- |
-| `x in s`               | `True` if an item of _s_ is equal to _x_, else `False`                                   |
-| `x not in s`           | `False` if an item of _s_ is equal to _x_, else `True`                                   |
-| `s + t`                | the concatenation of _s_ and _t_                                                         |
-| `s * n` or `n * s`     | equivalent to adding _s_ to itself _n_ times                                             |
-| `s[i]`                 | _&#x69;_&#x74;h item of _s_, origin 0                                                    |
-| `s[i:j]`               | slice of _s_ from _i_ to _j_                                                             |
-| `s[i:j:k]`             | slice of _s_ from _i_ to _j_ with step _k_                                               |
-| `len(s)`               | length of _s_                                                                            |
-| `min(s)`               | smallest item of _s_                                                                     |
-| `max(s)`               | largest item of _s_                                                                      |
-| `s.index(x[, i[, j]])` | index of the first occurrence of _x_ in _s_ (at or after index _i_ and before index _j_) |
-| `s.count(x)`           | total number of occurrences of _x_ in _s_                                                |
+<table data-header-hidden><thead><tr><th width="198">Operation</th><th width="563">Result</th></tr></thead><tbody><tr><td>Operation</td><td>Result</td></tr><tr><td><code>x in s</code></td><td><code>True</code> if an item of <em>s</em> is equal to <em>x</em>, else <code>False</code></td></tr><tr><td><code>x not in s</code></td><td><code>False</code> if an item of <em>s</em> is equal to <em>x</em>, else <code>True</code></td></tr><tr><td><code>s + t</code></td><td>the concatenation of <em>s</em> and <em>t</em></td></tr><tr><td><code>s * n</code> or <code>n * s</code></td><td>equivalent to adding <em>s</em> to itself <em>n</em> times</td></tr><tr><td><code>s[i]</code></td><td><em>i</em>th item of <em>s</em>, origin 0</td></tr><tr><td><code>s[i:j]</code></td><td>slice of <em>s</em> from <em>i</em> to <em>j</em></td></tr><tr><td><code>s[i:j:k]</code></td><td>slice of <em>s</em> from <em>i</em> to <em>j</em> with step <em>k</em></td></tr><tr><td><code>len(s)</code></td><td>length of <em>s</em></td></tr><tr><td><code>min(s)</code></td><td>smallest item of <em>s</em></td></tr><tr><td><code>max(s)</code></td><td>largest item of <em>s</em></td></tr><tr><td><code>s.index(x[, i[, j]])</code></td><td>index of the first occurrence of <em>x</em> in <em>s</em> (at or after index <em>i</em> and before index <em>j</em>)</td></tr><tr><td><code>s.count(x)</code></td><td>total number of occurrences of <em>x</em> in <em>s</em></td></tr></tbody></table>
 
 ## Mutable Sequence Types Methods
 
@@ -44,27 +31,6 @@ description: >-
 | `s.pop([i])`              | retrieves the item at _i_ and also removes it from _s_                                     | (2)   |
 | `s.remove(x)`             | remove the first item from _s_ where `s[i]`is equal to _x_                                 | (3)   |
 | `s.reverse()`             | reverses the items of _s_ in place                                                         | (4)   |
-
-## Lists commonly used methods
-
-&#x20;The `sort()` method sorts the list ascending by default.  _list_.sort(reverse=True|False, key=myFunc)
-
-### Parameter Values
-
-| Parameter | Description                                                                    |
-| --------- | ------------------------------------------------------------------------------ |
-| reverse   | Optional. reverse=True will sort the list descending. Default is reverse=False |
-| key       | Optional. A function to specify the sorting criteria(s)                        |
-
-```python
-# A function that returns the length of the value:
-def myFunc(e):
-  return len(e)
-
-cars = ['Ford', 'Mitsubishi', 'BMW', 'VW']
-
-cars.sort(reverse=True, key=myFunc)
-```
 
 ## Tuples
 
