@@ -218,6 +218,7 @@
     * [collections](a-group/common-apis/python-apis/collections/README.md)
       * [deque](a-group/common-apis/python-apis/collections/deque.md)
       * [Counter](a-group/common-apis/python-apis/collections/counter.md)
+    * [heapq](a-group/common-apis/python-apis/heapq.md)
 * [LeetCode](a-group/leetcode/README.md)
   * [Graph](a-group/leetcode/graph/README.md)
     * [Disjoint Set](a-group/leetcode/graph/disjoint-set.md)
