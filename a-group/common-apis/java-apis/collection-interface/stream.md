@@ -17,7 +17,7 @@ private static List<Employee> empList = Arrays.asList(arrayOfEmps);
 empList.stream();
 ```
 
-### &#x20;**Java 8 added a new **_**stream()**_** method to the **_**Collection**_** interface**
+### &#x20;**Java 8 added a new&#x20;**_**stream()**_**&#x20;method to the&#x20;**_**Collection**_**&#x20;interface**
 
 ### By method of Stream.builder()
 

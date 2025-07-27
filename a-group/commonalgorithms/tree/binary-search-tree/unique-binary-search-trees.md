@@ -2,7 +2,7 @@
 
 
 
-Given an integer `n`, return _the number of structurally unique **BST'**s (binary search trees) which has exactly_ `n` _nodes of unique values from_ `1` _to_ `n`.
+Given an integer `n`, return _the number of structurally unique **BST'**&#x73; (binary search trees) which has exactly_ `n` _nodes of unique values from_ `1` _to_ `n`.
 
 &#x20;
 

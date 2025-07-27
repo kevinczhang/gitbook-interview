@@ -8,7 +8,7 @@
 4. [https://leetcode.com/problems/partition-equal-subset-sum/](https://leetcode.com/problems/partition-equal-subset-sum/)
 5. [https://leetcode.com/problems/valid-palindrome-ii/](https://leetcode.com/problems/valid-palindrome-ii/)
 6. [https://leetcode.com/problems/kth-smallest-element-in-a-bst/](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
-7. You are given a m_n grid. You are asked to generate k mines on this grid randomly. Each cell should have equal probability of k / m_n of being chosen. Your algorithm should run in O(m) time.
+7. You are given a &#x6D;_&#x6E; grid. You are asked to generate k mines on this grid randomly. Each cell should have equal probability of k / &#x6D;_&#x6E; of being chosen. Your algorithm should run in O(m) time.
 8. [https://leetcode.com/problems/continuous-subarray-sum/](https://leetcode.com/problems/continuous-subarray-sum/)\
    (Given a list of positive numbers and a target integer k, write a function to check if the array has a continuous subarray which sums to k.)
 9. [https://leetcode.com/problems/verifying-an-alien-dictionary/](https://leetcode.com/problems/verifying-an-alien-dictionary/)

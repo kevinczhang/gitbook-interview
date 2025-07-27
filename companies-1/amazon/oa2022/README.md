@@ -11,7 +11,7 @@
 1. power subarray （楼主遇到的题）
 2. password strength 链接里的解法可pass 3.Segment no more than k， 解法 slidng widnow+min/max queue
 3. \[url=http://webcache.googleusercontent.com/search?q=cache:https://leetcode.com/discuss/int ... -OA\&strip=1\&vwsrc=0]student rank\[/url] : 解法链接里有答案
-4. Max deviation among all substrings： 链接里有答案，解法 O(26_26_n), 拿两个字母作为key，然后算一下running prefix sum，记录最大值。
+4. Max deviation among all substrings： 链接里有答案，解法 O(2&#x36;_&#x32;&#x36;_&#x6E;), 拿两个字母作为key，然后算一下running prefix sum，记录最大值。
 5. AWS power consumption： 解法见链接：sliding window 维持window内power不超过max allow power + 单调栈队列维持window内max power
 6. shipment imbalance ：解法见链接。4 个单调栈，算某个value可以作为subarray中的minValue和maxValue的可能性个数，类似刷题网扒尔扒。
 7. pick item strict decreasing， 链接有讨论，贪心n^2可以pass，link里有O(n)解。

@@ -3,7 +3,7 @@
 ## Heap 操作
 
 * **插入:** 将新元素放到`heap[size+1]`的位置每次比较它的它父亲元素，如果小于它的父亲，证明现在不满 足堆的性质，然后向上**Sift Up**
-* **删除:** 将根节点和最后一个节点进行交换如果该节点大于其中一个儿子，那么将其与其较小的儿子进行交换做**Sift Down，**直到该节点的儿子均大于它的值，或者它的儿子为空
+* **删除:** 将根节点和最后一个节点进行交换如果该节点大于其中一个儿子，那么将其与其较小的儿子进行交换做**Sift Down，**&#x76F4;到该节点的儿子均大于它的值，或者它的儿子为空
 
 ### Heap
 
@@ -230,7 +230,7 @@ class HashHeap {
 
 **Max-Heap** − Where the value of the root node is greater than or equal to either of its children.
 
-[https://www.tutorialspoint.com/data\_structures\_algorithms/heap\_data\_structure.htm](https://www.tutorialspoint.com/data\_structures\_algorithms/heap\_data\_structure.htm)
+[https://www.tutorialspoint.com/data\_structures\_algorithms/heap\_data\_structure.htm](https://www.tutorialspoint.com/data_structures_algorithms/heap_data_structure.htm)
 
 ## Heap Construction
 
@@ -260,7 +260,7 @@ Step 5 − Repeat step 3 & 4 until Heap property holds.
 
 ## Reference
 
-\[Heap Data Structures]\([https://www.tutorialspoint.com/data\_structures\_algorithms/heap\_data\_structure.htm\\](https://www.tutorialspoint.com/data\_structures\_algorithms/heap\_data\_structure.htm\)/)
+\[Heap Data Structures]\([https://www.tutorialspoint.com/data\_structures\_algorithms/heap\_data\_structure.htm\\](https://www.tutorialspoint.com/data_structures_algorithms/heap_data_structure.htm\)/)
 
 \[GeeksforGeeks]\([https://www.geeksforgeeks.org/binary-heap/\\](https://www.geeksforgeeks.org/binary-heap/\)/)
 

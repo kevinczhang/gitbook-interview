@@ -17,7 +17,7 @@ description: >-
 | `x not in s`           | `False` if an item of _s_ is equal to _x_, else `True`                                   |
 | `s + t`                | the concatenation of _s_ and _t_                                                         |
 | `s * n` or `n * s`     | equivalent to adding _s_ to itself _n_ times                                             |
-| `s[i]`                 | _i_th item of _s_, origin 0                                                              |
+| `s[i]`                 | _&#x69;_&#x74;h item of _s_, origin 0                                                    |
 | `s[i:j]`               | slice of _s_ from _i_ to _j_                                                             |
 | `s[i:j:k]`             | slice of _s_ from _i_ to _j_ with step _k_                                               |
 | `len(s)`               | length of _s_                                                                            |
@@ -39,7 +39,7 @@ description: >-
 | `s.clear()`               | removes all items from _s_ (same as `dels[:]`)                                             | (5)   |
 | `s.copy()`                | creates a shallow copy of _s_ (same as `s[:]`)                                             | (5)   |
 | `s.extend(t)` or `s += t` | extends _s_ with the contents of _t_ (for the most part the same as`s[len(s):len(s)] = t`) |       |
-| `s *= n`                  | updates _s_ with its contents repeated _n_times                                            | (6)   |
+| `s *= n`                  | updates _s_ with its contents repeated _&#x6E;_&#x74;imes                                  | (6)   |
 | `s.insert(i, x)`          | inserts _x_ into _s_ at the index given by _i_(same as `s[i:i] = [x]`)                     |       |
 | `s.pop([i])`              | retrieves the item at _i_ and also removes it from _s_                                     | (2)   |
 | `s.remove(x)`             | remove the first item from _s_ where `s[i]`is equal to _x_                                 | (3)   |
@@ -72,7 +72,7 @@ cars.sort(reverse=True, key=myFunc)
 
 ## Ranges
 
-&#x20;The [`range`](https://docs.python.org/3/library/stdtypes.html#range) type represents an immutable sequence of numbers and is commonly used for looping a specific number of times in [`for`](https://docs.python.org/3/reference/compound\_stmts.html#for) loops.
+&#x20;The [`range`](https://docs.python.org/3/library/stdtypes.html#range) type represents an immutable sequence of numbers and is commonly used for looping a specific number of times in [`for`](https://docs.python.org/3/reference/compound_stmts.html#for) loops.
 
 ```python
 >>> list(range(10))
