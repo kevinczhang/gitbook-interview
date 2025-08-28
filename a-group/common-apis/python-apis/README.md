@@ -64,3 +64,8 @@ print(x.Name())
 print(y.GetEmployee())
 ```
 
+## Containers
+
+* Built-in types: `dict`, `list`, `tuple`, `set` (always available)
+* `collections` module: `Counter`, `deque`, `defaultdict` (specialized containers)
+* `heapq` module: Functions to turn a `list` into a `heap` (a specific algorithm implementation)
