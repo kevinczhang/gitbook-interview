@@ -219,7 +219,7 @@
       * [deque](a-group/common-apis/python-apis/collections/deque.md)
     * [heapq](a-group/common-apis/python-apis/heapq.md)
     * [Numbers](a-group/common-apis/python-apis/built-in-functions.md)
-    * [bit](a-group/common-apis/python-apis/bit.md)
+    * [bit manipulation](a-group/common-apis/python-apis/bit-manipulation.md)
 * [LeetCode](a-group/leetcode/README.md)
   * [Graph](a-group/leetcode/graph/README.md)
     * [Disjoint Set](a-group/leetcode/graph/disjoint-set.md)
