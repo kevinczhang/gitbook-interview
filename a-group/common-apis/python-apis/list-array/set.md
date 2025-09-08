@@ -6,6 +6,74 @@ description: >-
 
 # Set
 
+## Creating sets
+
+There are two main ways to create a set in Python:
+
+*   With curly braces `{}`: To create a non-empty set, place comma-separated elements inside curly braces.
+
+    ```python
+    my_set = {"apple", "banana", "cherry"}
+    print(my_set)
+    # Example Output: {'banana', 'apple', 'cherry'}
+    ```
+*   With the `set()` constructor: To create an empty set, you must use `set()`, as `{}` creates an empty dictionary. You can also pass an iterable (like a list or tuple) to `set()` to create a set from its elements.
+
+    ```python
+    empty_set = set()
+    print(empty_set)
+    # Output: set()
+
+    list_to_set = set([1, 2, 2, 3, 4])
+    print(list_to_set)
+    # Output: {1, 2, 3, 4}
+    ```
+*   With a set comprehension: This is a concise way to create a set from an iterable, similar to list comprehensions.
+
+    ```python
+    squares_set = {x*x for x in range(5)}
+    print(squares_set)
+    # Output: {0, 1, 4, 9, 16}
+    ```
+
+
+
+## Common set operations
+
+Sets are a powerful tool for performing common mathematical operations.&#x20;
+
+<table data-header-hidden><thead><tr><th></th><th width="100"></th><th width="162"></th><th></th><th></th></tr></thead><tbody><tr><td>Operation </td><td>Operator</td><td>Method</td><td>Example</td><td>Result</td></tr><tr><td>Union (all unique elements)</td><td><code>|</code></td><td><code>union()</code></td><td><code>set1 = {1, 2, 3}</code><br><code>set2 = {3, 4, 5}</code><br><code>set1 | set2</code></td><td><code>{1, 2, 3, 4, 5}</code></td></tr><tr><td>Intersection (common elements)</td><td><code>&#x26;</code></td><td><code>intersection()</code></td><td><code>set1 = {1, 2, 3}</code><br><code>set2 = {3, 4, 5}</code><br><code>set1 &#x26; set2</code></td><td><code>{3}</code></td></tr><tr><td>Difference (elements in one set but not the other)</td><td><code>-</code></td><td><code>difference()</code></td><td><code>set1 = {1, 2, 3}</code><br><code>set2 = {3, 4, 5}</code><br><code>set1 - set2</code></td><td><code>{1, 2}</code></td></tr><tr><td>Symmetric Difference (elements in either set, but not both)</td><td><code>^</code></td><td><code>symmetric_difference()</code></td><td><code>set1 = {1, 2, 3}</code><br><code>set2 = {3, 4, 5}</code><br><code>set1 ^ set2</code></td><td><code>{1, 2, 4, 5}</code></td></tr></tbody></table>
+
+Key set methods
+
+*   `add(element)`: Adds a single element to the set.
+
+    ```python
+    my_set = {1, 2}
+    my_set.add(3)
+    print(my_set)
+    # Output: {1, 2, 3}
+    ```
+*   `update(iterable)`: Adds all elements from an iterable (like a list, tuple, or another set) to the current set.
+
+    ```python
+    my_set = {1, 2}
+    my_set.update([3, 4, 5])
+    print(my_set)
+    # Output: {1, 2, 3, 4, 5}
+    ```
+* `remove(element)`: Removes the specified element. Raises a `KeyError` if the element is not found.
+* `discard(element)`: Removes the specified element if it exists. Does nothing if the element is not found.
+* `pop()`: Removes and returns an arbitrary element from the set. Raises a `KeyError` if the set is empty.
+* `clear()`: Removes all elements from the set.&#x20;
+
+Key characteristics of sets
+
+* Unordered: Set items do not have an index, and their order is not guaranteed.
+* Unique elements: A set cannot contain duplicate values. Duplicates are automatically removed.
+* Mutable (but elements must be immutable): You can add or remove elements from a set. However, the elements themselves must be immutable (hashable), such as numbers, strings, or tuples. Mutable types like lists or dictionaries cannot be elements of a set.
+* Efficient membership testing: Checking if an item is present in a set (`element in my_set`) is significantly faster than performing the same check on a list, especially with large collections.&#x20;
+
 ## Commonly used methods
 
 The core idea of a set is that it's an unordered collection of unique, hashable elements. This uniqueness and fast lookup are what make them special.
@@ -89,83 +157,3 @@ Here are the most common and useful methods for Python sets:
 
 For LeetCode, `add()`, `remove()`/`discard()`, `pop()`, and the `in` operator for fast membership testing are your most frequent companions when dealing with sets. The set operations are also incredibly useful for problems involving unique elements across different collections.
 
-
-
-## Creating sets
-
-There are two main ways to create a set in Python:
-
-*   With curly braces `{}`: To create a non-empty set, place comma-separated elements inside curly braces.
-
-    ```
-    my_set = {"apple", "banana", "cherry"}
-    print(my_set)
-    # Example Output: {'banana', 'apple', 'cherry'}
-    ```
-
-    Use code with caution.
-*   With the `set()` constructor: To create an empty set, you must use `set()`, as `{}` creates an empty dictionary. You can also pass an iterable (like a list or tuple) to `set()` to create a set from its elements.python
-
-    ```
-    empty_set = set()
-    print(empty_set)
-    # Output: set()
-
-    list_to_set = set([1, 2, 2, 3, 4])
-    print(list_to_set)
-    # Output: {1, 2, 3, 4}
-    ```
-
-    Use code with caution.
-*   With a set comprehension: This is a concise way to create a set from an iterable, similar to list comprehensions.python
-
-    ```
-    squares_set = {x*x for x in range(5)}
-    print(squares_set)
-    # Output: {0, 1, 4, 9, 16}
-    ```
-
-    Use code with caution.&#x20;
-
-Common set operationsSets are a powerful tool for performing common mathematical operations.&#x20;
-
-| Operation                                                   | Operator | Method                   | Example                                                                                                | Result            |
-| ----------------------------------------------------------- | -------- | ------------------------ | ------------------------------------------------------------------------------------------------------ | ----------------- |
-| Union (all unique elements)                                 | `\|`     | `union()`                | <p><code>set1 = {1, 2, 3}</code><br><code>set2 = {3, 4, 5}</code><br><code>set1 | set2</code></p>      | `{1, 2, 3, 4, 5}` |
-| Intersection (common elements)                              | `&`      | `intersection()`         | <p><code>set1 = {1, 2, 3}</code><br><code>set2 = {3, 4, 5}</code><br><code>set1 &#x26; set2</code></p> | `{3}`             |
-| Difference (elements in one set but not the other)          | `-`      | `difference()`           | <p><code>set1 = {1, 2, 3}</code><br><code>set2 = {3, 4, 5}</code><br><code>set1 - set2</code></p>      | `{1, 2}`          |
-| Symmetric Difference (elements in either set, but not both) | `^`      | `symmetric_difference()` | <p><code>set1 = {1, 2, 3}</code><br><code>set2 = {3, 4, 5}</code><br><code>set1 ^ set2</code></p>      | `{1, 2, 4, 5}`    |
-
-Key set methods
-
-*   `add(element)`: Adds a single element to the set.python
-
-    ```
-    my_set = {1, 2}
-    my_set.add(3)
-    print(my_set)
-    # Output: {1, 2, 3}
-    ```
-
-    Use code with caution.
-*   `update(iterable)`: Adds all elements from an iterable (like a list, tuple, or another set) to the current set.python
-
-    ```
-    my_set = {1, 2}
-    my_set.update([3, 4, 5])
-    print(my_set)
-    # Output: {1, 2, 3, 4, 5}
-    ```
-
-    Use code with caution.
-* `remove(element)`: Removes the specified element. Raises a `KeyError` if the element is not found.
-* `discard(element)`: Removes the specified element if it exists. Does nothing if the element is not found.
-* `pop()`: Removes and returns an arbitrary element from the set. Raises a `KeyError` if the set is empty.
-* `clear()`: Removes all elements from the set.&#x20;
-
-Key characteristics of sets
-
-* Unordered: Set items do not have an index, and their order is not guaranteed.
-* Unique elements: A set cannot contain duplicate values. Duplicates are automatically removed.
-* Mutable (but elements must be immutable): You can add or remove elements from a set. However, the elements themselves must be immutable (hashable), such as numbers, strings, or tuples. Mutable types like lists or dictionaries cannot be elements of a set.
-* Efficient membership testing: Checking if an item is present in a set (`element in my_set`) is significantly faster than performing the same check on a list, especially with large collections.&#x20;
