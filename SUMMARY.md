@@ -268,6 +268,7 @@
   * [Department highest salary](database/q-and-a/department-highest-salary.md)
   * [Nth highest salary](database/q-and-a/nth-highest-salary.md)
   * [Trips and users](database/q-and-a/trips-and-users.md)
+* [MongoDB](database/mongodb.md)
 
 ## Multithread
 
