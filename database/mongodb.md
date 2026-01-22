@@ -79,18 +79,14 @@ db.users.deleteMany({ status: "Senior" });
 
 #### Logical Operators
 
-JavaScript
-
-```
+```sql
 // Find users who are EITHER age 25 OR name "Bob"
 db.users.find({ $or: [{ age: 25 }, { name: "Bob" }] });
 ```
 
 #### Sorting & Limiting
 
-JavaScript
-
-```
+```sql
 // Sort by age (1: Ascending, -1: Descending)
 db.users.find().sort({ age: 1 });
 
@@ -102,9 +98,7 @@ db.users.find().limit(5);
 
 ### ⚡ Performance & Indexing
 
-JavaScript
-
-```
+```sql
 // Create an index to speed up queries on "email"
 db.users.createIndex({ email: 1 });
 
