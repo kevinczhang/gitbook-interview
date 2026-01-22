@@ -18,9 +18,7 @@ A quick reference guide for common `mongosh` commands and CRUD operations.
 
 #### Create (Insert)
 
-JavaScript
-
-```
+```sql
 // Insert a single document
 db.users.insertOne({ name: "Alice", age: 25 });
 
@@ -33,9 +31,7 @@ db.users.insertMany([
 
 #### Read (Find)
 
-JavaScript
-
-```
+```sql
 // Get all documents
 db.users.find();
 
@@ -48,9 +44,7 @@ db.users.find({}, { name: 1, _id: 0 });
 
 #### Update
 
-JavaScript
-
-```
+```sql
 // Update the first match
 db.users.updateOne({ name: "Alice" }, { $set: { age: 26 } });
 
@@ -63,9 +57,7 @@ db.users.updateOne({ name: "Bob" }, { $unset: { status: "" } });
 
 #### Delete
 
-JavaScript
-
-```
+```sql
 // Delete the first match
 db.users.deleteOne({ name: "Alice" });
 
