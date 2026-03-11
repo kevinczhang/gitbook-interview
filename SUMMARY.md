@@ -277,23 +277,3 @@
 * [Sync](multithread/sync/README.md)
   * [Locks](multithread/sync/locks.md)
   * [Semaphore](multithread/sync/semaphore.md)
-
-## Companies <a href="#companies-1" id="companies-1"></a>
-
-* [Facebook](companies-1/facebook/README.md)
-  * [LC - Till Date 07-Jun-2020](companies-1/facebook/lc-till-date-07-jun-2020.md)
-* [Amazon](companies-1/amazon/README.md)
-  * [OA](companies-1/amazon/oa.md)
-  * [OA 2021](companies-1/amazon/oa-2021.md)
-  * [OA2022](companies-1/amazon/oa2022/README.md)
-    * [OA 1](companies-1/amazon/oa2022/oa-1.md)
-    * [OA 2](companies-1/amazon/oa2022/oa-2.md)
-    * [OA 3](companies-1/amazon/oa2022/oa-3.md)
-* [Google](companies-1/google/README.md)
-  * [2020 from June](companies-1/google/2020-from-june.md)
-* [Microsoft](companies-1/microsoft/README.md)
-  * [Basic Calculator](companies-1/microsoft/basic-calculator.md)
-  * [Read N Characters Given Read4 II](companies-1/microsoft/read-n-characters-given-read4-ii.md)
-  * [Employee Free Time](companies-1/microsoft/employee-free-time.md)
-  * [Search in Rotated Sorted Array](companies-1/microsoft/search-in-rotated-sorted-array.md)
-  * [Split a String Into the Max Number of Unique Substrings](companies-1/microsoft/split-a-string-into-the-max-number-of-unique-substrings.md)
