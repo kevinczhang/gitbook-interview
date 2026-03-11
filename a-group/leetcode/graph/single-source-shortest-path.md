@@ -6,8 +6,7 @@ For example, there may be many routes from your home to a target location, such 
 
 The main focus of this chapter is to solve such “single source shortest path” problems. Given the starting vertex, find the “shortest path” to any of the vertices in a weighted graph. Once we solve this, we can easily acquire the shortest paths between the starting vertex and a given target vertex.
 
-\
-
+<br>
 
 #### Edge Relaxation <a href="#edge-relaxation" id="edge-relaxation"></a>
 
@@ -15,13 +14,11 @@ The main focus of this chapter is to solve such “single source shortest path�
 
 In the following video, we'll talk about an Edge Relaxation operation that is a key element in solving the “single-source shortest path” problem.
 
-\
-
+<br>
 
 An alternative way to understand why this process is called ‘relaxation’ is to imagine that each path is a rubber band of length 1. The original path from A to D is of length 3, so the rubber band was stretched to 3 times its original length. When we relax the path to length 2, by visiting C first, the rubber band is now only stretched to twice its length, so you can imagine the rubber band being relaxed, hence the term edge relaxation.
 
-\
-
+<br>
 
 In this chapter, we will learn two “single source shortest path” algorithms:
 

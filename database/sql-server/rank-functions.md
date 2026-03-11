@@ -30,7 +30,7 @@ FROM
     t;
 ```
 
-![](broken-reference)
+![](/broken/files/-LzSMN4TyLGCUJ4bMsUu)
 
 The following statement ranks employees in each department by their salaries:
 
@@ -57,7 +57,7 @@ In this example:
 
 The following picture shows the partial output of the query:
 
-![SQL DENSE\_RANK Function Over Partition example](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-DENSE\_RANK-Function-Over-Partition-example.png)
+![SQL DENSE\_RANK Function Over Partition example](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-DENSE_RANK-Function-Over-Partition-example.png)
 
 If you want to find only employees who have the highest salary in their departments, you just to use a [subquery](https://www.sqltutorial.org/sql-subquery/) in the `FROM` clause as follows:
 
@@ -84,7 +84,7 @@ WHERE
 
 The following output shows the employees who have the highest salary in their department:
 
-![SQL DENSE\_RANK Function find nth highest value](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-DENSE\_RANK-Function-find-nth-highest-value.png)
+![SQL DENSE\_RANK Function find nth highest value](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-DENSE_RANK-Function-find-nth-highest-value.png)
 
 ## `ROW_NUMBER()` Function
 
@@ -104,7 +104,7 @@ FROM
 
 The following picture shows the partial result set:
 
-![SQL ROW\_NUMBER Function Example](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-ROW\_NUMBER-Function-Example.png)
+![SQL ROW\_NUMBER Function Example](https://www.sqltutorial.org/wp-content/uploads/2018/09/SQL-ROW_NUMBER-Function-Example.png)
 
 ## &#x20;`PERCENT_RANK()` function
 

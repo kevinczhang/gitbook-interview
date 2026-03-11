@@ -29,9 +29,8 @@ Let's first decide on state variables. What decisions are there to make, and wha
 
 The problem is asking for the minimum difficulty, so let's have a function \text{dp(i, day)}dp(i, day) that returns the minimum difficulty of a job schedule which starts on the i^{th}ith job and day, \text{day}day. To solve the original problem, we will just return \text{dp(0, 1)}dp(0, 1), since we start on the first day with no jobs done yet.
 
-![](https://leetcode.com/explore/learn/card/Figures/DP1/C3A2\_1\_cropped.png)\
-![](https://leetcode.com/explore/learn/card/Figures/DP1/C3A2\_2\_cropped.png)\
-
+![](https://leetcode.com/explore/learn/card/Figures/DP1/C3A2_1_cropped.png)\
+![](https://leetcode.com/explore/learn/card/Figures/DP1/C3A2_2_cropped.png)<br>
 
 2\. A **recurrence relation** to transition between states
 
@@ -47,8 +46,7 @@ The codified recurrence relation is a scary one to look at for sure. However, it
 
 ![Current](blob:https://leetcode.com/1c97d4ef-f0cc-4462-b49d-3396d1f4fddd)1 / 3
 
-\
-
+<br>
 
 3\. **Base cases**
 
@@ -60,8 +58,7 @@ We can precompute an array \text{hardestJobRemaining}hardestJobRemaining where \
 
 Additionally, if there are more days than jobs (\text{n < d}n < d), then it is impossible to do at least one job each day, and per the problem description, we should return \text{-1}-1. We can check for this case at the very start.
 
-\
-
+<br>
 
 #### Top-down Implementation <a href="#top-down-implementation" id="top-down-implementation"></a>
 

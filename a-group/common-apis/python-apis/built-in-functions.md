@@ -25,4 +25,4 @@ divmod(x, y)  # returns the pair (x // y, x % y)
 | `x >> n`  | _x_ shifted right by _n_ bits         | (1)(3) |
 | `~x`      | the bits of _x_ inverted              |        |
 
-\
+<br>

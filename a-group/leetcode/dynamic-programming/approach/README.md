@@ -10,8 +10,7 @@ Before we start, we need to first define a term: **state**. In a DP problem, a *
 
 > You might be wondering what "relevant" means here. Picture this problem in real life: you are on a set of stairs, and you want to know how many ways there are to climb to say, the 10th step. We're definitely interested in what step you're currently standing on. However, we aren't interested in what color your socks are. You could certainly include sock color as a state variable. Standing on the 8th step wearing green socks is a different state than standing on the 8th step wearing red socks. However, changing the color of your socks will not change the number of ways to reach the 10th step from your current position. Thus the color of your socks is an **irrelevant** variable. In terms of figuring out how many ways there are to climb the set of stairs, the only **relevant** variable is what stair you are currently on.
 
-\
-
+<br>
 
 #### The Framework <a href="#the-framework" id="the-framework"></a>
 
@@ -49,4 +48,4 @@ Let's say we had 3 state variables: \text{i}i, \text{k}k, and \text{holding}hold
 
 Whenever we compute a state, we also store it so that we can refer to it in the future. In bottom-up, we tabulate the results, and in top-down, states are memoized. Since we store states, the space complexity is equal to the number of states. That means that in problems where calculating a state is O(1)O(1), the time and space complexity are the same. In many DP problems, there are optimizations that can improve both complexities - we'll talk about this later.
 
-\
+<br>

@@ -1,13 +1,13 @@
 # Topological Sort
 
-[Topological Sorting](broken-reference)
+[Topological Sorting](/broken/pages/-M63nIFcKmOuLZbzqvKy)
 
 > 拓扑排序是一个dfs的应用, 所谓拓扑排序是指在一个DAG(有向无回路图)里给每个节点定义一个顺序(v1…vn), 使得按照这个顺序遍历的节点, 每一个节点vi都是之前遍历过的的节点(v1 \~ vi-1)所指向的(或没有任何其他节点指向的).
 
 See:
 
-* [Course Schedule](broken-reference)
-* [Course Schedule II](broken-reference)
+* [Course Schedule](/broken/pages/-M63nIFTV6lb3Blxodmj)
+* [Course Schedule II](/broken/pages/-M63nIFUrtaxofyacoUu)
 
 ## Problem
 

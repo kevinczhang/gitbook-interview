@@ -46,15 +46,13 @@ Where,\
 `sellStock = prices[i] + dp(i + 1, transactionsRemaining - 1, 0)`, and\
 `buyStock = -prices[i] + dp(i + 1, transactionsRemaining, 1)`.
 
-![](https://leetcode.com/explore/learn/card/Figures/DP1/C3A5\_1.png)\
-
+![](https://leetcode.com/explore/learn/card/Figures/DP1/C3A5_1.png)<br>
 
 3\. **Base cases**
 
 Both base cases are very simple for this problem. If we are out of transactions (\text{transactionsRemaining = 0}transactionsRemaining = 0), then we should immediately return \text{0}0 as we cannot make any more money. If the stock is no longer on the market (\text{i = prices.length}i = prices.length), then we should also return \text{0}0, as we cannot make any more money.
 
-\
-
+<br>
 
 #### Top-down Implementation <a href="#top-down-implementation" id="top-down-implementation"></a>
 

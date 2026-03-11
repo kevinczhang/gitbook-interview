@@ -2,8 +2,7 @@
 
 The last pattern we'll be looking at is pathing problems on a matrix. These problems have matrices as part of the input and give rules for "moving" through the matrix in the problem description. Typically, DP will be applicable when the allowed movement is constrained in a way that prevents moving "backwards", for example if we are only allowed to move down and right.
 
-![](https://leetcode.com/explore/learn/card/Figures/1293/1293\_next\_steps.png)\
-
+![](https://leetcode.com/explore/learn/card/Figures/1293/1293_next_steps.png)<br>
 
 If we are allowed to move in all 4 directions, then it might be a graph/BFS problem instead. This pattern is sometimes combined with other patterns we have looked at, such as counting DP.
 
@@ -37,8 +36,7 @@ In the previous chapter, when talking about counting DP problems, we said that t
 
 > Note: If you have trouble coming up with the recurrence relation, sometimes it helps to come up with the base case(s) first. Then walk through how you would find the result for states that are slightly more complicated than the base case(s), such as \text{dp\[0]\[1]}dp\[0]\[1], \text{dp\[1]\[1]}dp\[1]\[1], and \text{dp\[2]\[1]}dp\[2]\[1]. Often, this process of manually solving the problem for simple states can help you understand what the recurrence relation should be.
 
-\
-
+<br>
 
 #### Bottom-up Implementation <a href="#bottom-up-implementation" id="bottom-up-implementation"></a>
 

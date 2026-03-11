@@ -2,7 +2,7 @@
 
 `Graph` is probably the data structure that has the closest resemblance to our daily life. There are many types of graphs describing the relationships in real life. For instance, our friend circle is a huge “graph”.
 
-![](https://assets.leetcode.com/static\_assets/explore/The\_basic\_of\_graph\_1.png)
+![](https://assets.leetcode.com/static_assets/explore/The_basic_of_graph_1.png)
 
 Figure 1. An example of a undirected graph.
 
@@ -24,7 +24,7 @@ The edges between any two vertices in a “directed graph” graph are direction
 
 Figure 2 is an example of a directed graph.
 
-![](https://assets.leetcode.com/static\_assets/explore/The\_basic\_of\_graph\_2.png)
+![](https://assets.leetcode.com/static_assets/explore/The_basic_of_graph_2.png)
 
 Figure 2. An example of a directed graph.
 
@@ -32,7 +32,7 @@ Figure 2. An example of a directed graph.
 
 Each edge in a “weighted graph” has an associated weight. The weight can be of any metric, such as time, distance, size, etc. The most commonly seen “weighted map” in our daily life might be a city map. In Figure 3, each edge is marked with the distance, which can be regarded as the weight of that edge.
 
-![](https://assets.leetcode.com/static\_assets/explore/The\_basic\_of\_graph\_3.png)
+![](https://assets.leetcode.com/static_assets/explore/The_basic_of_graph_3.png)
 
 Figure 3. An example of a weighted graph.
 
@@ -53,11 +53,10 @@ Figure 3. An example of a weighted graph.
 * In-Degree: “in-degree” is a concept in directed graphs. If the in-degree of a vertex is d, there are d directional edges incident to the vertex. In Figure 2, A’s indegree is 1, i.e., the edge from F to A.
 * Out-Degree: “out-degree” is a concept in directed graphs. If the out-degree of a vertex is d, there are d edges incident from the vertex. In Figure 2, A’s outdegree is 3, i,e, the edges A to B, A to C, and A to G.
 
-![](https://assets.leetcode.com/static\_assets/explore/4.\_Negative\_Cycle.png)
+![](https://assets.leetcode.com/static_assets/explore/4._Negative_Cycle.png)
 
 Figure 4. An example of a negative weight cycle.
 
-\
-
+<br>
 
 After understanding the basics of “graph”, let’s start our journey on learning data structures and algorithms related to “graph”.

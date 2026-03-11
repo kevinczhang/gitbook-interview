@@ -42,7 +42,7 @@ Output: [1,2,3,4,8,12,11,10,9,5,6,7]
 
 其实是转化思路，从另一个角度看，spiral遍历时恰好是一层一层元素的顺时针输出:
 
-@LeetCode![](broken-reference)
+@LeetCode![](/broken/files/-M63nNpbel92JXI7Ly43)
 
 ```java
 int r1 = 0, r2 = matrix.length - 1;

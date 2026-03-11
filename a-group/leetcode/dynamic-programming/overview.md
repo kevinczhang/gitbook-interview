@@ -25,15 +25,13 @@ for i from 2 to n:
     F[i] = F[i - 1] + F[i - 2]
 ```
 
-\
-
+<br>
 
 ### Top-down (Memoization) <a href="#top-down-memoization" id="top-down-memoization"></a>
 
 Top-down is implemented with recursion and made efficient with memoization. If we wanted to find the n^{th}nth Fibonacci number F(n)F(n), we try to compute this by finding F(n - 1)F(n−1) and F(n - 2)F(n−2). This defines a recursive pattern that will continue on until we reach the base cases F(0) = F(1) = 1F(0)=F(1)=1. The problem with just implementing it recursively is that there is a ton of unnecessary repeated computation. Take a look at the recursion tree if we were to find F(5)F(5):
 
-![](https://leetcode.com/explore/learn/card/Figures/DP1/C1A2\_1.png)\
-
+![](https://leetcode.com/explore/learn/card/Figures/DP1/C1A2_1.png)<br>
 
 Notice that we need to calculate F(2)F(2) three times. This might not seem like a big deal, but if we were to calculate F(6)F(6), this **entire image** would be only one child of the root. Imagine if we wanted to find F(100)F(100) - the amount of computation is exponential and will quickly explode. The solution to this is to **memoize** results.
 

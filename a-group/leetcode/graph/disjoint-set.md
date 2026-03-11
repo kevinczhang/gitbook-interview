@@ -2,7 +2,7 @@
 
 Given the vertices and edges between them, how could we quickly check whether two vertices are connected? For example, Figure 5 shows the edges between vertices, so how can we efficiently check if 0 is connected to 3, 1 is connected to 5, or 7 is connected to 8? We can do so by using the “disjoint set” data structure, also known as the “union-find” data structure. Note that others might refer to it as an algorithm. In this Explore Card, the term “disjoint set” refers to a data structure.
 
-![](https://leetcode.com/explore/learn/card/Figures/Graph\_Explore/Disjoint\_Set\_1.png)
+![](https://leetcode.com/explore/learn/card/Figures/Graph_Explore/Disjoint_Set_1.png)
 
 Figure 5. Each graph consists of vertices and edges. The root vertices are in green
 
@@ -20,8 +20,7 @@ The primary use of disjoint sets is to address the connectivity between the comp
 1. How do “disjoint sets” work.
 2. Solving the connectivity question in Figure 5.
 
-\
-
+<br>
 
 ## Implementing “disjoint sets” <a href="#implementing-disjoint-sets" id="implementing-disjoint-sets"></a>
 

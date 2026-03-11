@@ -74,7 +74,7 @@ The execution order of a recursive CTE is as follows:
 * Second, execute the recursive member with the input result set from the previous iteration (Ri-1) and return a sub-result set (Ri) until the termination condition is met.
 * Third, combine all result sets R0, R1, … Rn using [`UNION ALL`](https://www.sqlservertutorial.net/sql-server-basics/sql-server-union/) operator to produce the final result set.
 
-![](broken-reference)
+![](/broken/files/-MPN1X62KX4aHxjNYGbx)
 
 This example uses a recursive CTE to get all subordinates of the top manager who does not have a manager (or the value in the `manager_id` column is NULL):
 

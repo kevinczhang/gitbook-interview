@@ -280,21 +280,14 @@
 
 ## Design
 
-* [Design Patterns](design/design-patterns.md)
 * [Object Oriented Design](design/object-oriented-design/README.md)
   * [Parking Lot](design/object-oriented-design/parking-lot.md)
+  * [Design Patterns](design/object-oriented-design/design-patterns.md)
 * [Storage design](design/storage-design/README.md)
   * [Design Cache](design/storage-design/design-cache.md)
   * [Sharding a Database](design/storage-design/sharding-a-database.md)
   * [Highly Available Database](design/storage-design/highly-available-database.md)
   * [Highly Consistent Database](design/storage-design/highly-consistent-database.md)
-* [System design](design/system-design/README.md)
-  * [Large social network](design/system-design/large-social-network.md)
-  * [Billion pages](design/system-design/billion-pages.md)
-  * [Tiny URL](design/system-design/tiny-url.md)
-  * [Distributed caching system](design/system-design/distributed-caching-system.md)
-  * [Messenger Design](design/system-design/messenger-design.md)
-* [AI](design/ai.md)
 
 ## Companies <a href="#companies-1" id="companies-1"></a>
 

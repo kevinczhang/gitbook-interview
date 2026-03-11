@@ -129,4 +129,4 @@ In such case, overhead increases for Quicksort and Mergesort is generally prefer
 
 [Toptal: Sorting Algorithms Animations](https://www.toptal.com/developers/sorting-algorithms)
 
-Leetcode 排序类题目 排序算法总结: [https://www.jianshu.com/p/fb3e38defec4](broken-reference)
+Leetcode 排序类题目 排序算法总结: [https://www.jianshu.com/p/fb3e38defec4](/broken/pages/-M63nIHn22mcxCMBSGHS)
