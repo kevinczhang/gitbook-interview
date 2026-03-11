@@ -280,9 +280,9 @@
 
 ## Design
 
+* [Design Patterns](design/design-patterns.md)
 * [Object Oriented Design](design/object-oriented-design/README.md)
   * [Parking Lot](design/object-oriented-design/parking-lot.md)
-  * [Design Patterns](design/object-oriented-design/design-patterns.md)
 * [Storage design](design/storage-design/README.md)
   * [Design Cache](design/storage-design/design-cache.md)
   * [Sharding a Database](design/storage-design/sharding-a-database.md)
