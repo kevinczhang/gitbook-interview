@@ -134,6 +134,7 @@
       * [Max Area of Island](a-group/commonalgorithms/graph/islands-problems/max-area-of-island.md)
       * [Number of Distinct Islands](a-group/commonalgorithms/graph/islands-problems/number-of-distinct-islands.md)
       * [Number of Distinct Islands II](a-group/commonalgorithms/graph/islands-problems/number-of-distinct-islands-ii.md)
+    * [Detect circle](a-group/commonalgorithms/graph/detect-circle.md)
   * [Backtrack](a-group/commonalgorithms/backtrack/README.md)
     * [Combinations](a-group/commonalgorithms/backtrack/combinations.md)
     * [Permutations II](a-group/commonalgorithms/backtrack/permutations-ii.md)

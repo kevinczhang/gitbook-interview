@@ -1,5 +1,7 @@
 ---
 description: Common algorithms for graph
+cover: >-
+  https://images.unsplash.com/photo-1770944661355-b55f9a7b3e9f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzMyNDk0NTN8&ixlib=rb-4.1.0&q=85
 coverY: 0
 ---
 
