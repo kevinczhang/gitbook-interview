@@ -278,17 +278,6 @@
   * [Locks](multithread/sync/locks.md)
   * [Semaphore](multithread/sync/semaphore.md)
 
-## Design
-
-* [Design Patterns](design/design-patterns.md)
-* [Object Oriented Design](design/object-oriented-design/README.md)
-  * [Parking Lot](design/object-oriented-design/parking-lot.md)
-* [Storage design](design/storage-design/README.md)
-  * [Design Cache](design/storage-design/design-cache.md)
-  * [Sharding a Database](design/storage-design/sharding-a-database.md)
-  * [Highly Available Database](design/storage-design/highly-available-database.md)
-  * [Highly Consistent Database](design/storage-design/highly-consistent-database.md)
-
 ## Companies <a href="#companies-1" id="companies-1"></a>
 
 * [Facebook](companies-1/facebook/README.md)
