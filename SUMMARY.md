@@ -258,19 +258,6 @@
 * [Unit testing](a-group/unit-testing.md)
 * [Summary](a-group/summary.md)
 
-## Database
-
-* [SQL Server](database/sql-server/README.md)
-  * [Select](database/sql-server/select.md)
-  * [Indexes](database/sql-server/indexes.md)
-  * [CTE](database/sql-server/cte.md)
-  * [Rank functions](database/sql-server/rank-functions.md)
-* [Q\&A](database/q-and-a/README.md)
-  * [Department highest salary](database/q-and-a/department-highest-salary.md)
-  * [Nth highest salary](database/q-and-a/nth-highest-salary.md)
-  * [Trips and users](database/q-and-a/trips-and-users.md)
-* [MongoDB](database/mongodb.md)
-
 ## Multithread
 
 * [Overview](multithread/overview.md)
