@@ -28,12 +28,32 @@ All following methods are static methods
 
 ## Integer methods
 
-1. &#x20;[`MAX_VALUE`](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html#MAX\_VALUE)A constant holding the maximum value an `int` can have, 231-1.
-2. &#x20;[`MIN_VALUE`](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html#MIN\_VALUE)A constant holding the minimum value an `int` can have, -231.
+1. &#x20;[`MAX_VALUE`](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html#MAX_VALUE)A constant holding the maximum value an `int` can have, 231-1.
+2. &#x20;[`MIN_VALUE`](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html#MIN_VALUE)A constant holding the minimum value an `int` can have, -231.
 3. &#x20;[`BYTES`](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html#BYTES)The number of bytes used to represent a `int` value in two's complement binary form. It is 4.
 4. &#x20; Size: number of bits used to represent an `int` value in two's complement binary form. It is 32.
 5. &#x20;[`parseInt`](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html#parseInt-java.lang.String-)`(`[`String`](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html) `s)`Parses the string argument as a signed decimal integer.
 6. &#x20;[`toBinaryString`](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html#toBinaryString-int-)`(int i)`Returns a string representation of the integer argument as an unsigned integer in base 2.
 
-##
+## Data types
 
+1. **Primitive Data Types:**
+   * `int`: 4 bytes, stores whole numbers from -2,147,483,648 to 2,147,483,647.
+   * `byte`: 1 byte, stores whole numbers from -128 to 127.
+   * `short`: 2 bytes, stores whole numbers from -32,768 to 32,767.
+   * `long`: 8 bytes, stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807.
+   * `float`: 4 bytes, stores fractional numbers, sufficient for storing 6 to 7 decimal digits.
+   * `double`: 8 bytes, stores fractional numbers, sufficient for storing 15 decimal digits.
+   * `boolean`: 1 bit, stores `true` or `false`.
+   * `char`: 2 bytes, stores a single 16-bit Unicode character.
+2. **Reference Data Types:**
+   * Arrays, Classes, Interfaces, Strings
+
+#### Commonly Used Wrapper Classes
+
+Java provides object equivalents for primitive types, which are required when using collections (e.g., `ArrayList<Integer>` instead of `int`):
+
+* `int` $$\rightarrow$$ `Integer`
+* `double` $$\rightarrow$$ `Double`
+* `char` $$\rightarrow$$ `Character`
+* `boolean` $$\rightarrow$$ `Boolean`
